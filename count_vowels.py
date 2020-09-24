@@ -3,7 +3,6 @@
 
 def get_count(input_str):
     num_vowels = 0
-    # your code here
     for char in input_str:
         if char in "aeiouAEIOU":
             num_vowels = num_vowels+1
